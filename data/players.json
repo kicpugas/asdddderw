@@ -1,0 +1,198 @@
+{
+    "8092842581": {
+        "user_id": 8092842581,
+        "name": "Безымянный герой",
+        "health": 120,
+        "max_health": 120,
+        "money": 9682,
+        "level": 3,
+        "exp": 20,
+        "strength": 215,
+        "defense": 5,
+        "agility": 10,
+        "intelligence": 10,
+        "play_time": 52884,
+        "battles_won": 9,
+        "total_damage_dealt": 1083,
+        "last_activity_time": 1752146352.1600492,
+        "inventory": [
+            {
+                "name": "Гоблинский нож",
+                "type": "misc",
+                "quantity": 1,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Кожа",
+                "type": "misc",
+                "quantity": 2,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Копыто",
+                "type": "misc",
+                "quantity": 1,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Камень",
+                "type": "misc",
+                "quantity": 2,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Кожа",
+                "type": "misc",
+                "quantity": 1,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Волчья шкура",
+                "type": "misc",
+                "quantity": 3,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Волчьи клыки",
+                "type": "misc",
+                "quantity": 1,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Кости",
+                "type": "misc",
+                "quantity": 3,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Мясо",
+                "type": "misc",
+                "quantity": 3,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Рыбий хвост",
+                "type": "misc",
+                "quantity": 3,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Чешуя русалки",
+                "type": "misc",
+                "quantity": 2,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            },
+            {
+                "name": "Жемчужина",
+                "type": "misc",
+                "quantity": 1,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Удар мечом",
+                "damage": 10,
+                "accuracy": 0.9
+            },
+            {
+                "name": "Мощный удар",
+                "damage": 15,
+                "accuracy": 0.7
+            }
+        ]
+    },
+    "7940686992": {
+        "user_id": 7940686992,
+        "name": "Безымянный герой",
+        "health": 93,
+        "max_health": 100,
+        "money": 4,
+        "level": 1,
+        "exp": 10,
+        "strength": 10,
+        "defense": 5,
+        "agility": 10,
+        "intelligence": 10,
+        "play_time": 178,
+        "battles_won": 2,
+        "total_damage_dealt": 48,
+        "last_activity_time": 1752093627.6732385,
+        "inventory": [
+            {
+                "name": "Кожа",
+                "type": "misc",
+                "quantity": 2,
+                "damage": 0,
+                "defense": 0,
+                "heal_amount": 0
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Удар мечом",
+                "damage": 10,
+                "accuracy": 0.9
+            },
+            {
+                "name": "Мощный удар",
+                "damage": 15,
+                "accuracy": 0.7
+            }
+        ]
+    },
+    "2139448887": {
+        "user_id": 2139448887,
+        "name": "Безымянный герой",
+        "health": 100,
+        "max_health": 100,
+        "money": 0,
+        "level": 1,
+        "exp": 0,
+        "strength": 10,
+        "defense": 5,
+        "agility": 10,
+        "intelligence": 10,
+        "play_time": 0,
+        "battles_won": 0,
+        "total_damage_dealt": 0,
+        "last_activity_time": 1752145635.12047,
+        "inventory": [],
+        "attacks": [
+            {
+                "name": "Удар мечом",
+                "damage": 10,
+                "accuracy": 0.9
+            },
+            {
+                "name": "Мощный удар",
+                "damage": 15,
+                "accuracy": 0.7
+            }
+        ]
+    }
+}

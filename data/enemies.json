@@ -1,0 +1,582 @@
+{
+    "goblin": {
+        "name": "Гоблин",
+        "level": 2,
+        "health": 40,
+        "strength": 5,
+        "defense": 2,
+        "speed": 18,
+        "attacks": [
+            {
+                "name": "Колющий удар",
+                "damage": 8,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Кидание камнем",
+                "damage": 5,
+                "accuracy": 0.9
+            }
+        ],
+        "exp": 10,
+        "reward": 5,
+        "drops": [
+            ["Гоблинский нож", 0.1],
+            ["Камень", 0.5],
+            ["Кожа", 0.2],
+            ["Медь", 0.05]
+        ]
+    },
+    "goblin_lvl1": {
+        "name": "Гоблин (Ур. 1)",
+        "level": 1,
+        "health": 20,
+        "strength": 2,
+        "defense": 1,
+        "speed": 18,
+        "attacks": [
+            {
+                "name": "Колющий удар",
+                "damage": 8,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Кидание камнем",
+                "damage": 5,
+                "accuracy": 0.9
+            }
+        ],
+        "exp": 5,
+        "reward": 2,
+        "drops": [
+            ["Гоблинский нож", 0.1],
+            ["Камень", 0.5],
+            ["Кожа", 0.2],
+            ["Медь", 0.05]
+        ]
+    },
+    "mermaid": {
+        "name": "Русалка",
+        "level": 5,
+        "health": 70,
+        "strength": 10,
+        "defense": 5,
+        "speed": 15,
+        "attacks": [
+            {
+                "name": "Пение сирены",
+                "damage": 10,
+                "accuracy": 0.7
+            },
+            {
+                "name": "Удар хвостом",
+                "damage": 12,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Укус",
+                "damage": 8,
+                "accuracy": 0.9
+            }
+        ],
+        "exp": 10,
+        "reward": 15,
+        "drops": [
+            ["Рыбий хвост", 1.0],
+            ["Чешуя русалки", 0.75],
+            ["Жемчужина", 0.15],
+            ["Серебро", 0.05]
+        ]
+    },
+    "big_wolf": {
+        "name": "Большой Волк",
+        "level": 4,
+        "health": 90,
+        "strength": 15,
+        "defense": 8,
+        "speed": 20,
+        "attacks": [
+            {
+                "name": "Укус",
+                "damage": 15,
+                "accuracy": 0.9
+            },
+            {
+                "name": "Рывок",
+                "damage": 18,
+                "accuracy": 0.7
+            }
+        ],
+        "exp": 10,
+        "reward": 10,
+        "drops": [
+            ["Волчья шкура", 1.0],
+            ["Волчьи клыки", 0.5],
+            ["Кости", 0.75],
+            ["Мясо", 1.0]
+        ]
+    },
+    "nymph": {
+        "name": "Нимфа",
+        "level": 6,
+        "health": 80,
+        "strength": 5,
+        "defense": 2,
+        "speed": 12,
+        "attacks": [
+            {
+                "name": "Лесной союзник",
+                "damage": 5,
+                "accuracy": 0.9
+            },
+            {
+                "name": "Целительное касание",
+                "damage": 0,
+                "accuracy": 1.0
+            }
+        ],
+        "exp": 10,
+        "reward": 20,
+        "drops": [
+            ["Цветок нимфы", 1.0],
+            ["Вода нимфы", 0.3],
+            ["Кора дерева", 0.2]
+        ]
+    },
+    "imp": {
+        "name": "Чертёнок",
+        "level": 3,
+        "health": 50,
+        "strength": 8,
+        "defense": 4,
+        "speed": 22,
+        "attacks": [
+            {
+                "name": "Удар рогами",
+                "damage": 10,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Укус",
+                "damage": 8,
+                "accuracy": 0.9
+            }
+        ],
+        "exp": 10,
+        "reward": 8,
+        "drops": [
+            ["Рога чертенка", 0.5],
+            ["Копыто", 1.0],
+            ["Куски серы", 0.1]
+        ]
+    },
+    "skeleton_warrior": {
+        "name": "Скелет-воин",
+        "level": 7,
+        "health": 100,
+        "strength": 18,
+        "defense": 10,
+        "speed": 10,
+        "attacks": [
+            {
+                "name": "Удар мечом",
+                "damage": 20,
+                "accuracy": 0.8
+            }
+        ],
+        "exp": 10,
+        "reward": 25,
+        "drops": [
+            ["Ржавый меч", 0.6],
+            ["Кости", 1.0],
+            ["Куски кожи", 0.3]
+        ]
+    },
+    "ogre": {
+        "name": "Огр",
+        "level": 9,
+        "health": 200,
+        "strength": 35,
+        "defense": 15,
+        "speed": 5,
+        "attacks": [
+            {
+                "name": "Удар дубиной",
+                "damage": 40,
+                "accuracy": 0.7
+            },
+            {
+                "name": "Бросок камнем",
+                "damage": 30,
+                "accuracy": 0.6
+            }
+        ],
+        "exp": 10,
+        "reward": 35,
+        "drops": [
+            ["Большой палец", 1.0],
+            ["Кожа огра", 0.75],
+            ["Огромный молот", 0.5]
+        ]
+    },
+    "orc": {
+        "name": "Орк",
+        "level": 8,
+        "health": 150,
+        "strength": 25,
+        "defense": 12,
+        "speed": 12,
+        "attacks": [
+            {
+                "name": "Удар топором",
+                "damage": 30,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Боевой клич",
+                "damage": 0,
+                "accuracy": 1.0
+            }
+        ],
+        "exp": 10,
+        "reward": 30,
+        "drops": [
+            ["Железный топор", 0.6],
+            ["Зеленая кожа", 1.0],
+            ["Железо", 0.25]
+        ]
+    },
+    "elemental_golem": {
+        "name": "Стихийный Голем",
+        "level": 10,
+        "health": 250,
+        "strength": 40,
+        "defense": 20,
+        "speed": 8,
+        "attacks": [
+            {
+                "name": "Каменный кулак",
+                "damage": 45,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Стихийный взрыв",
+                "damage": 50,
+                "accuracy": 0.7
+            }
+        ],
+        "exp": 10,
+        "reward": 40,
+        "drops": [
+            ["Камень", 1.0],
+            ["Элементальный осколок", 0.4],
+            ["Самоцвет", 0.05]
+        ]
+    },
+    "elemental_golem_lvl11": {
+        "name": "Стихийный Голем (Ур. 11)",
+        "level": 11,
+        "health": 275,
+        "strength": 44,
+        "defense": 22,
+        "speed": 8,
+        "attacks": [
+            {
+                "name": "Каменный кулак",
+                "damage": 45,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Стихийный взрыв",
+                "damage": 50,
+                "accuracy": 0.7
+            }
+        ],
+        "exp": 11,
+        "reward": 44,
+        "drops": [
+            ["Камень", 1.0],
+            ["Элементальный осколок", 0.4],
+            ["Самоцвет", 0.05]
+        ]
+    },
+    "mimic": {
+        "name": "Мимик",
+        "level": 5,
+        "health": 75,
+        "strength": 15,
+        "defense": 15,
+        "speed": 10,
+        "attacks": [
+            {
+                "name": "Укус",
+                "damage": 20,
+                "accuracy": 0.9
+            },
+            {
+                "name": "Липкий язык",
+                "damage": 10,
+                "accuracy": 0.7
+            }
+        ],
+        "exp": 10,
+        "reward": 25,
+        "drops": [
+            ["Дерево", 0.3],
+            ["Монеты", 0.0],
+            ["Изумруд", 0.023]
+        ]
+    },
+    "giant_slime": {
+        "name": "Огромный Слизень",
+        "level": 15,
+        "health": 500,
+        "strength": 20,
+        "defense": 10,
+        "speed": 5,
+        "attacks": [
+            {
+                "name": "Удар щупальцами",
+                "damage": 25,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Затопление",
+                "damage": 30,
+                "accuracy": 0.7
+            }
+        ],
+        "exp": 10,
+        "reward": 75,
+        "drops": [
+            ["Гель слизня", 1.0],
+            ["Кристалл маны", 0.1],
+            ["Эссенция слизи", 0.3]
+        ]
+    },
+    "giant_slime_lvl16": {
+        "name": "Огромный Слизень (Ур. 16)",
+        "level": 16,
+        "health": 533,
+        "strength": 21,
+        "defense": 10,
+        "speed": 5,
+        "attacks": [
+            {
+                "name": "Удар щупальцами",
+                "damage": 25,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Затопление",
+                "damage": 30,
+                "accuracy": 0.7
+            }
+        ],
+        "exp": 11,
+        "reward": 80,
+        "drops": [
+            ["Гель слизня", 1.0],
+            ["Кристалл маны", 0.1],
+            ["Эссенция слизи", 0.3]
+        ]
+    },
+    "giant_slime_lvl17": {
+        "name": "Огромный Слизень (Ур. 17)",
+        "level": 17,
+        "health": 566,
+        "strength": 22,
+        "defense": 11,
+        "speed": 5,
+        "attacks": [
+            {
+                "name": "Удар щупальцами",
+                "damage": 25,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Затопление",
+                "damage": 30,
+                "accuracy": 0.7
+            }
+        ],
+        "exp": 12,
+        "reward": 85,
+        "drops": [
+            ["Гель слизня", 1.0],
+            ["Кристалл маны", 0.1],
+            ["Эссенция слизи", 0.3]
+        ]
+    },
+    "succubus": {
+        "name": "Суккуб",
+        "level": 18,
+        "health": 350,
+        "strength": 25,
+        "defense": 10,
+        "speed": 20,
+        "attacks": [
+            {
+                "name": "Очарование",
+                "damage": 0,
+                "accuracy": 1.0
+            },
+            {
+                "name": "Поцелуй",
+                "damage": 30,
+                "accuracy": 0.9
+            }
+        ],
+        "exp": 10,
+        "reward": 100,
+        "drops": [
+            ["Крылья суккуба", 0.2],
+            ["Семя", 0.5],
+            ["Соблазнительное одеяние", 0.1]
+        ]
+    },
+    "succubus_lvl19": {
+        "name": "Суккуб (Ур. 19)",
+        "level": 19,
+        "health": 369,
+        "strength": 26,
+        "defense": 10,
+        "speed": 20,
+        "attacks": [
+            {
+                "name": "Очарование",
+                "damage": 0,
+                "accuracy": 1.0
+            },
+            {
+                "name": "Поцелуй",
+                "damage": 30,
+                "accuracy": 0.9
+            }
+        ],
+        "exp": 11,
+        "reward": 105,
+        "drops": [
+            ["Крылья суккуба", 0.2],
+            ["Семя", 0.5],
+            ["Соблазнительное одеяние", 0.1]
+        ]
+    },
+    "animated_armor": {
+        "name": "Оживший Доспех",
+        "level": 12,
+        "health": 400,
+        "strength": 30,
+        "defense": 30,
+        "speed": 15,
+        "attacks": [
+            {
+                "name": "Удар мечом",
+                "damage": 35,
+                "accuracy": 0.8
+            }
+        ],
+        "exp": 10,
+        "reward": 60,
+        "drops": [
+            ["Железный меч", 0.75],
+            ["Железный доспех", 0.6]
+        ]
+    },
+    "animated_armor_lvl13": {
+        "name": "Оживший Доспех (Ур. 13)",
+        "level": 13,
+        "health": 433,
+        "strength": 32,
+        "defense": 32,
+        "speed": 15,
+        "attacks": [
+            {
+                "name": "Удар мечом",
+                "damage": 35,
+                "accuracy": 0.8
+            }
+        ],
+        "exp": 11,
+        "reward": 65,
+        "drops": [
+            ["Железный меч", 0.75],
+            ["Железный доспех", 0.6]
+        ]
+    },
+    "animated_armor_lvl14": {
+        "name": "Оживший Доспех (Ур. 14)",
+        "level": 14,
+        "health": 466,
+        "strength": 35,
+        "defense": 35,
+        "speed": 15,
+        "attacks": [
+            {
+                "name": "Удар мечом",
+                "damage": 35,
+                "accuracy": 0.8
+            }
+        ],
+        "exp": 12,
+        "reward": 70,
+        "drops": [
+            ["Железный меч", 0.75],
+            ["Железный доспех", 0.6]
+        ]
+    },
+    "ent": {
+        "name": "Энт",
+        "level": 20,
+        "health": 800,
+        "strength": 50,
+        "defense": 40,
+        "speed": 5,
+        "attacks": [
+            {
+                "name": "Удар корнями",
+                "damage": 55,
+                "accuracy": 0.8
+            },
+            {
+                "name": "Бросок камнем",
+                "damage": 45,
+                "accuracy": 0.7
+            }
+        ],
+        "exp": 10,
+        "reward": 150,
+        "drops": [
+            ["Кора Энта", 1.0],
+            ["Эссенция природы", 0.4],
+            ["Большой сук", 0.5]
+        ]
+    },
+    "ancient_fire_dragon": {
+        "name": "Древний Огненный Дракон",
+        "level": 50,
+        "health": 2000,
+        "strength": 100,
+        "defense": 80,
+        "speed": 30,
+        "attacks": [
+            {
+                "name": "Огненное дыхание",
+                "damage": 120,
+                "accuracy": 0.7
+            },
+            {
+                "name": "Удар когтями",
+                "damage": 100,
+                "accuracy": 0.9
+            }
+        ],
+        "exp": 10,
+        "reward": 5000,
+        "drops": [
+            ["Драконья чешуя", 0.3],
+            ["Сердце дракона", 0.01],
+            ["Кровь дракона", 0.023]
+        ]
+    }
+}
