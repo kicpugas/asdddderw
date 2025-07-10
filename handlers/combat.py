@@ -370,7 +370,7 @@ async def defend_handler(callback: CallbackQuery, state: FSMContext):
         
         # Player defends (reduces incoming damage)
         defense_bonus = player.defense // 2
-        action_log = f"🛡️ Вы заняли оборонительную позицию (\+{defense_bonus} защиты)"
+        action_log = f"🛡️ Вы заняли оборонительную позицию (+{defense_bonus} защиты)"
         
         # Enemy's turn with reduced damage
         enemy_attack = random.choice(enemy.attacks)
@@ -502,7 +502,7 @@ async def handle_victory(callback: CallbackQuery, state: FSMContext, player, ene
         
     except Exception as e:
         print(e)
-        await callback.message.edit_text("🎉 Победа\! (Ошибка при обработке наград)")
+        await callback.message.edit_text("🎉 Победа! (Ошибка при обработке наград)")
         await state.clear()
 
 async def handle_defeat(callback: CallbackQuery, state: FSMContext, player, action_log):
@@ -524,7 +524,7 @@ async def handle_defeat(callback: CallbackQuery, state: FSMContext, player, acti
         
     except Exception as e:
         print(e)
-        await callback.message.edit_text("💀 Поражение\! (Ошибка при обработке)")
+        await callback.message.edit_text("💀 Поражение! (Ошибка при обработке)")
         await state.clear()
 
 async def combat_timeout_handler():
