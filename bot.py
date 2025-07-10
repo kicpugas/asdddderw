@@ -10,7 +10,7 @@ from handlers import main_menu, combat
 
 # Укажи свой адрес Render здесь!
 WEBHOOK_PATH = "/webhook"
-WEBHOOK_URL = "https://<твой-проект>.onrender.com/webhook"  # ← заменишь после деплоя
+WEBHOOK_URL = "https://asdddderw.onrender.com/webhook"  # ← заменишь после деплоя
 
 # Создание бота и диспетчера
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
